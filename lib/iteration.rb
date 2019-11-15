@@ -2,10 +2,11 @@ def join_ingredients(src)
   new_array = []
   i = 0 
   while i < src.length do 
-    new_array.push("I love #{src[i][0]} and #{src[i][0]")
+    new_array.push( "I love #{src[i][0]} and #{src[i][0]} on my pizza" )
     i += 1 
   end 
   new_array
+  
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
